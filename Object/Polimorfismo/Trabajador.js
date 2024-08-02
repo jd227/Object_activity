@@ -3,3 +3,4 @@ class Trabajador {
         console.log('Realizando tarea');
     }
 }
+export default Trabajador;
