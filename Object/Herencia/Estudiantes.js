@@ -17,4 +17,11 @@ class Estudiante extends Persona {
             throw new Error('Grado invalido');
         }
     }
+
+    toString(){
+        return `Nombre: ${this.obtenerNombre()}, Edad: ${this.obtenerEdad()}, Fecha de nacimiento: ${this.obtenerFechaNacimiento()}, Grado: ${this.obtenerGrado()}`
+    }
 }
+
+const estudiante = new Estudiante ('David', 20, new Date('2000-10-08'), 'Universitario');
+console.log(estudiante.toString());
