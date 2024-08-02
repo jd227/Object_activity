@@ -16,5 +16,6 @@ class Persona {
       } else {
         throw new Error('Nombre no válido.');
       }
+      
     }
 }
