@@ -16,5 +16,18 @@ class FiguraGeometrica {
     
       obtenerNombre() {
         return this.#nombre;
-      }gti
-}  
+      }
+      establecerColor(color) {
+        if (typeof color === 'string' && color.trim() !== '') {
+          this.#color = color;
+        } else {
+          throw new Error('Color inválido');
+        }
+      }
+    
+      obtenerColor() {
+        return this.#color;
+      }
+}
+
+export default FiguraGeometrica;
