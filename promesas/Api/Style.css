@@ -1,0 +1,15 @@
+#juegos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.juego {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+.juego img {
+    max-width: 100%;
+    height: auto;
+}

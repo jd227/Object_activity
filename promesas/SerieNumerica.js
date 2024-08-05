@@ -17,7 +17,7 @@ const nuevoNumero = () => new Promise(resolve => {
         resolve(`Agregado: ${suma}`);
         N1 += 1;
         N2 = suma; 
-    }, 100);
+    }, 3000);
 });
 
 nuevoNumero()
