@@ -1,1 +1,1 @@
-Actividad de objetos JS
+echo Activity Object JS.
