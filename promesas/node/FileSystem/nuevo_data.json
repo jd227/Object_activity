@@ -1,0 +1,12 @@
+{
+  "nombre": "Ana López",
+  "edad": 28,
+  "ciudad": "Barcelona",
+  "profesión": "Diseñadora gráfica",
+  "hobbies": [
+    "dibujo",
+    "fotografía",
+    "viajar"
+  ],
+  "email": "ana.lopez@nada.com"
+}
