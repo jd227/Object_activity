@@ -1,0 +1,12 @@
+{
+  "nombre": "Juan Pérez",
+  "edad": 30,
+  "ciudad": "Madrid",
+  "profesión": "Ingeniero de software",
+  "hobbies": [
+    "programación",
+    "lectura",
+    "ciclismo"
+  ],
+  "email": "juan.perez@nada.com"
+}
